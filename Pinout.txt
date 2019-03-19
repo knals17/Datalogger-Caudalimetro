@@ -1,0 +1,21 @@
+Hola Sr Luis aca esta le dejo el PinOut de las conexiones de arduino para el proyecto:
+
+Contadores de agua:
+D2 - Caudalimetro 1
+D3 - Caudalimetro 2
+
+NTC:
+A0 - NTC 1
+A1 - NTC 2
+
+A2 - Sensor de presion
+
+Adicionales que he puesto para testeos:
+
+D6 - Led (he usado uno amarillo) indicador de guardado de datos, este led parpadea cada vez que un grupo de datos son guardados en la memoria SD.
+D8 - Led (he usado uno verde) indica el estado del sistema se mantiene encendido mientras tenga acceso lectura/escritura a la SD.
+D9 - Led (he usado uno rojo) indica error para acceder a la sd o esta no esta en el slot del shield. 
+
+
+
+
